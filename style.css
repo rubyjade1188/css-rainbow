@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: white;
+}
+
+.rainbow {
+	height: 200px;
+	overflow: hidden;
+}
+
+.rainbow div {
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.rainbow > div {
+	width: 400px;
+	height: 400px;
+	background: red;
+}
+
+.rainbow > div > div {
+	height: 380px;
+	margin: 10px;
+	background: #ff7f00;
+}
+
+.rainbow > div > div > div {
+	height: 360px;
+	margin: 10px;
+	background: #ffff00;
+}
+
+.rainbow > div > div > div > div {
+	height: 340px;
+	margin: 10px;
+	background: #00ff00;
+}
+
+.rainbow > div > div > div > div > div {
+	height: 320px;
+	margin: 10px;
+	background: #00ffff;
+}
+
+.rainbow > div > div > div > div > div > div {
+	height: 300px;
+	margin: 10px;
+	background: #0000ff;
+}
+
+.rainbow > div > div > div > div > div > div > div {
+	height: 280px;
+	margin: 10px;
+	background: #8b00ff;
+}
+
+.rainbow > div > div > div > div > div > div > div > div {
+	height: 260px;
+	margin: 10px;
+	background: #ffffff;
+}
